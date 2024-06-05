@@ -1,6 +1,6 @@
 <div class="container-fluid">
 
-    <div class="row">
+    <div class="row text-center">
 
         <?php foreach ($barang as $brg) : ?>
             <div class="card" style="width: 16rem;">
