@@ -4,7 +4,7 @@
 
         <?php foreach ($barang as $brg) : ?>
             <div class="card" style="width: 16rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="<?php  echo base_url().'/uploads/'.$brg->gambar ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $brg->nama_brg ?></h5>
                     <small><?php echo $brg->keterangan ?></small><br>
